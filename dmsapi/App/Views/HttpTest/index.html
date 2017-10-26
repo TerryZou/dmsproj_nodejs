@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title><%= title%></title>
+		<script src="/js/jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<a href="javascript:void(0)" onclick="test();">点我</a>
+		<script type="text/javascript">
+			function test(){
+				$.ajax({
+					type:"post",
+					url:"/HttpTest/GetUser",
+					async:true,
+					success:function(d){
+						alert(d.username);
+					}
+				});
+			}
+		</script>
+	</body>
+</html>
