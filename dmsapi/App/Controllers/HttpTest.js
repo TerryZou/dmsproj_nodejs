@@ -21,16 +21,34 @@ module.exports = class extends HttpController {
 	}
 
 	postGetUser(req, res) {
-		var name=req.body.name;
+		var name = req.body.name;
 		console.log("有人请求操作了")
-		res.set("Access-Control-Allow-Origin", "*");
-//
-//		res.set("Access-Control-Allow-Headers", "X-Requested-With");
-//		res.set("Access-Control-Allow-Methods", "POST");
-//		res.set("X-Powered-By", ' 3.2.1')
-		//res.set("Content-Type", "application/json;charset=utf-8");
-		return {
-			username: 'posttest'+name
+		var requestData = {
+			name: req.body.name,
+			age: req.body.age,
+			add: req.body.add
 		};
+		var key = req.body.key;
+		var code = req.body.code;
+
+		var isok = base.checkApiSecurity(requestData, code);
+		var result = new Object();
+		if(isok) {
+			result = {
+				username: 'posttest' + name
+			};
+		} else {
+			result = {
+				message: "api no security"
+			}
+		}
+
+		res.set("Access-Control-Allow-Origin", "*");
+		//
+		//		res.set("Access-Control-Allow-Headers", "X-Requested-With");
+		//		res.set("Access-Control-Allow-Methods", "POST");
+		//		res.set("X-Powered-By", ' 3.2.1')
+		//res.set("Content-Type", "application/json;charset=utf-8");
+		return result;
 	}
 }

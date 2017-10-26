@@ -24,6 +24,7 @@ module.exports = class extends HttpController {
 		console.log("postGetUser");
 		var result = new Object();
 		try {
+			
 			var url = "http://127.0.0.1:8086/HttpTest/GetUser";
 			//console.log(req.body);
 			result = await base.apiRequest(url,{name:req.body.name});

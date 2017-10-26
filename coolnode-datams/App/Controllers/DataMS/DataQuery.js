@@ -6,15 +6,6 @@ const HttpController = require("./HttpController");
  */
 module.exports = class Home extends HttpController {
 	
-	constructor(options = {}, req = null){
-        super(options, req);
-
-        this.requireAuth = true;
-
-        this.authorized = false;
-
-        this.fallbackTo = "/Login/index";
-    }
 	
     /** GET / or GET /Home/ */
     index(req) {
