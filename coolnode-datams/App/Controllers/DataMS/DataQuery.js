@@ -1,4 +1,4 @@
-const HttpController = require("./HttpController");
+const HttpController = require("../HttpController");
 
 /**
  * The Home controller is a special controller, it handles requests which 
