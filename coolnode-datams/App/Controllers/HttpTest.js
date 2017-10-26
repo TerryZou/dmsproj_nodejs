@@ -1,6 +1,5 @@
 const HttpController = require("./HttpController");
 const base = require("./Base");
-var request = require('request');
 
 module.exports = class extends HttpController {
 	//	constructor(options = {}, req = null){
@@ -26,46 +25,16 @@ module.exports = class extends HttpController {
 		var result = new Object();
 		try {
 			var url = "http://127.0.0.1:8086/HttpTest/GetUser";
-			result = await apiRequest(url);
+			//console.log(req.body);
+			result = await base.apiRequest(url,{name:req.body.name});
 			console.log(result);
 		} catch(ex) {
 			console.log(ex.message);
 		}
 
 		return result;
+		//		return {
+		//			"username": "test12344"
+		//		};
 	}
-
-	getGetUser1(req, res) {
-		return {
-			username: 'test'
-		};
-	}
-}
-
-function apiRequest(url) {
-	return new Promise(function(resolve, reject) {
-		request({
-			url: url,
-			method: "POST",
-			json: true,
-			headers: {
-				"content-type": "application/json",
-			},
-			body: {
-				username: 'test'
-			}
-		}, function(error, response, body) {
-			console.log("&&&&&&&&&&&&&&&&&&&7");
-			console.log(body);
-			console.log(response.statusCode);
-			
-			console.log("&&&&&&&&&&&&&&&&&&&7");
-			if(!error && response.statusCode == 200) {
-				resolve(body);
-
-			} else {
-				resolve(error);
-			}
-		});
-	});
 }

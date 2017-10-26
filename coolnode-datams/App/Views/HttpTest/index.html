@@ -14,8 +14,9 @@
 					url:"/HttpTest/GetUser",
 					//url:"http://127.0.0.1:8086/HttpTest/GetUser",
 					async:true,
+					data:{name:'123'},
 					success:function(d){
-						alert(d);
+						alert(d.username);
 					},
 					error:function(e){
 						console.log(e);

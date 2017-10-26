@@ -21,15 +21,16 @@ module.exports = class extends HttpController {
 	}
 
 	postGetUser(req, res) {
+		var name=req.body.name;
 		console.log("有人请求操作了")
 		res.set("Access-Control-Allow-Origin", "*");
 //
 //		res.set("Access-Control-Allow-Headers", "X-Requested-With");
 //		res.set("Access-Control-Allow-Methods", "POST");
 //		res.set("X-Powered-By", ' 3.2.1')
-		res.set("Content-Type", "application/json;charset=utf-8");
+		//res.set("Content-Type", "application/json;charset=utf-8");
 		return {
-			username: 'posttest'
+			username: 'posttest'+name
 		};
 	}
 }
