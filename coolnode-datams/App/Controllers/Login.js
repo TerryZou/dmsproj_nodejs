@@ -23,7 +23,7 @@ module.exports = class Login extends BaseController {
 			
 			var params={name:name,pwd:pwd};
 			
-			result = await this.apiRequest(url,params);
+			result = await this.apiRequest(url,params,req.body);
 			
 			console.log("result-----",result);
 			

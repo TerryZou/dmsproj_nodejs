@@ -39,10 +39,12 @@ module.exports = class Base extends HttpController {
 	}
 
 	//请求第三方api方法
-	apiRequest (url, requestData) {
+	apiRequest (url, requestData,reqbody) {
 		var code = apisecurity.getApiCode(requestData, sys_config.dataapi.key);
+		requestData.body = JSON.stringify(reqbody);
 		requestData.key = sys_config.dataapi.key;
 		requestData.code = code;
+		
 		return new Promise(function(resolve, reject) {
 			request({
 				url: url,
