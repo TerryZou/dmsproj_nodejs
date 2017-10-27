@@ -60,7 +60,7 @@ module.exports = class Base extends HttpController {
 				if(!error && response.statusCode == 200) {
 					resolve(body);
 				} else {
-					resolve("requst faild, check api url or check server code");
+					resolve("requst failed, check api url or check server code");
 				}
 			});
 		});
