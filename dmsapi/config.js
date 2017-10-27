@@ -33,11 +33,11 @@ module.exports = {
     },
     database: { // Settings for Modelar.
         type: "mysql",
-        host: "localhost",
+        host: "120.92.117.210",
         port: 3306,
-        database: "cool-node",
-        user: "root",
-        password: ""
+        database: "BaseAnalysis",
+        user: "guest",
+        password: "qwer1234"
     },
     session: { // Settings for Express-Session.
         secret: "cool-node",

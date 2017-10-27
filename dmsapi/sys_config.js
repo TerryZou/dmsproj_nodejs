@@ -1,5 +1,14 @@
 
 module.exports = {
+	databases:[{
+		name:"BaseAnalysis",
+		type: "mysql",
+        host: "120.92.117.210",
+        port: 3306,
+        database: "BaseAnalysis",
+        user: "guest",
+        password: "qwer1234"
+	}],
     dataapi: {
         url: "http://127.0.0.1", // For splitting subdomains, could be an array.
         port: 8086,
