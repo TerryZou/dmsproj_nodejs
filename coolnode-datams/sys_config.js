@@ -13,14 +13,13 @@ module.exports = {
         					method:"Login",
         					action:"GetByLogin",
         					params:{
-        						key:'',
-        						ispage:true,
-        						page:1,
-        						row:20
+        						name:'',
+        						password:''
         					},
         					result:{
-        						data:[],
-        						count:100,
+        						data:{
+        							//用户信息
+        						},
         						success:true,
         						code:0,
         						code_sub:'manager_getlist_success',
