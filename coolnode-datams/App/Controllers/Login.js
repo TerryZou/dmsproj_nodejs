@@ -25,7 +25,7 @@ module.exports = class Login extends BaseController {
 			
 			result = await this.apiRequest(url,params);
 			
-			console.log(result);
+			console.log("result-----",result);
 			
 		} catch(ex) {
 			console.log(ex.message);
