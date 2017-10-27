@@ -8,7 +8,11 @@ module.exports = class Author extends BaseController {
 
 		this.requireAuth = true;
 
-		this.authorized = true;
+		this.authorized = false;
+		
+
+		//验证session
+
 
 		this.fallbackTo = "/Login/index?returnurl=" + req.url;
 	}
