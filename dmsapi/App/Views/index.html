@@ -31,9 +31,10 @@
 			function getuser() {
 				$.ajax({
 					type: "post",
-					url: "http://127.0.0.1:8086/Api/SysUser/GetById",
+					url: "http://127.0.0.1:8086/Api/SysUser/GetByLogin",
 					data: {
-						id:1
+						name:"admin1",
+						pwd:"12345678901"
 					},
 					async: true,
 					success: function(data) {

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title><%= title%></title>
+		<title></title>
 		<script src="/js/jquery-3.2.1.min.js"></script>
 	</head>
 	<body>
@@ -11,7 +11,7 @@
 			function test(){
 				$.ajax({
 					type:"post",
-					url:"/SystemMS/Manager/GetList",
+					url:"/SystemMS/SysUser/GetList",
 					//url:"http://127.0.0.1:8086/HttpTest/GetUser",
 					async:true,
 					data:{name:'123'},

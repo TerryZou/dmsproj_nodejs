@@ -60,8 +60,8 @@
 						layer.msg('请输入密码');
 					}else {
 						var user={
-							userName: userName,
-							userPwd: userPwd
+							name: userName,
+							pwd: userPwd
 						};
 						var msg = layer.msg('登陆中', {
 							icon: 16,
@@ -70,7 +70,8 @@
 						});
 
 						$.ajax({
-							url: '/api/login/get_User',
+							//url: '/api/login/get_User',
+							url:"/Login/DoLogin",
 							type: 'post',
 							data: user,
 							success: function(data) {

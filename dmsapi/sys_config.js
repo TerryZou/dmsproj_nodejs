@@ -12,7 +12,7 @@ module.exports = {
     dataapi: {
         url: "http://127.0.0.1", // For splitting subdomains, could be an array.
         port: 8086,
-        key:'ihealth_datams1234',
+        key:'ihealth_datams',
         apis:[
         		{
         			name:"Manager",

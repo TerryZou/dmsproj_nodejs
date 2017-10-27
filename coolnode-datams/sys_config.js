@@ -6,12 +6,12 @@ module.exports = {
         key:'ihealth_datams',
         apis:[
         		{
-        			name:"Manager",
-        			url:"/SystemMS/Manager/",
+        			name:"SysUser",
+        			url:"/Api/SysUser/",
         			methods:[
         				{
-        					method:"getlist",
-        					action:"getlist",
+        					method:"Login",
+        					action:"GetByLogin",
         					params:{
         						key:'',
         						ispage:true,

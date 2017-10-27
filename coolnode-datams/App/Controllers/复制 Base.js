@@ -45,7 +45,7 @@ exports.author = (options, req, sender) => {
 
 	sender.authorized = false;
 
-	sender.fallbackTo = "/Login/index";
+	sender.fallbackTo = "/Login/index?";
 }
 
 //请求第三方api方法
