@@ -14,7 +14,10 @@ module.exports = {
 					action: "GetByLogin",
 					params: {
 						name: '',
-						password: ''
+						password: '',
+						reqUrl: '',
+						reqBody: '',
+						sysUserId: ''
 					},
 					result: {
 						data: {
@@ -64,6 +67,32 @@ module.exports = {
 							reqBody: "", //用户请求的参数
 							apiUrl: "", //该操作对应的api接口
 							detail: "", //错误信息
+							sysUserId: "" //操作用户id
+						},
+						result: {
+							res: {
+								success: true,
+								code: 0,
+								code_sub: '',
+								message: '',
+								description: '',
+								timestamp: new Date().getTime().toString()
+							}
+						}
+					},
+					{
+						method: "GetReqLog",
+						action: "GetReqLog",
+						params: {
+							type: type,
+							beginDate: beginDate,
+							endDate: endDate,
+							page: page,
+							pageSize: pageSize, //
+							orderBy: orderBy, // Id,Type,CreatedDate
+							sort: 'asc', //asc   desc
+							reqUrl: "", //用户请求客户端路径
+							reqBody: "", //用户请求的参数
 							sysUserId: "" //操作用户id
 						},
 						result: {
