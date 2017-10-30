@@ -123,15 +123,18 @@
 			$("#ms_frame").height(($(window).height() - 108));
 
 			function logout() {
+
 				$.ajax({
-					url: '/api/login/logout_User',
+					url: '/Login/Logout_User',
 					type: 'post',
 					data: {
 						logout: true
 					},
 					success: function(data) {
+						console.log('data---',data);
 						if(data.success) {
-							window.location.href = "/login";
+
+							window.location.href = "/Login";
 						} else {
 							layer.msg('未退出');
 						}
