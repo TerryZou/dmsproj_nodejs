@@ -1,0 +1,198 @@
+[2017-10-30 11:24:20.747] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:24:20***************
+[2017-10-30 11:24:20.748] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:24:20.749] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:24:20.749] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:25:31.326] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:25:31***************
+[2017-10-30 11:25:31.327] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:25:31.328] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:25:31.328] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:26:21.819] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:26:21***************
+[2017-10-30 11:26:21.820] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:26:21.821] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:26:21.821] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:26:36.386] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:26:36***************
+[2017-10-30 11:26:36.386] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:26:36.387] [LOG] Api/SysUser.postGetByLogin - ReferenceError: data1 is not defined
+[2017-10-30 11:26:36.388] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:28:57.477] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:28:57***************
+[2017-10-30 11:28:57.478] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:28:57.479] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:28:57.479] [LOG] Api/SysUser.postGetByLogin - undefined
+[2017-10-30 11:28:57.480] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:30:45.991] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:30:45***************
+[2017-10-30 11:30:45.992] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:30:45.993] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:30:45.993] [LOG] Api/SysUser.postGetByLogin - undefined
+[2017-10-30 11:30:45.994] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:32:32.492] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:32:32***************
+[2017-10-30 11:32:32.493] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:32:32.494] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:32:32.494] [LOG] Api/SysUser.postGetByLogin - ReferenceError: data1 is not defined
+    at module.exports.postGetByLogin (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/Api/SysUser.js:33:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-10-30 11:32:32.494] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:34:58.054] [LOG] Api/SysUser.postGetByLogin - *************2017-10-30 11:34:58***************
+[2017-10-30 11:34:58.055] [LOG] Api/SysUser.postGetByLogin - /Api/SysUser/GetByLogin
+[2017-10-30 11:34:58.056] [LOG] Api/SysUser.postGetByLogin - --------------------------
+[2017-10-30 11:34:58.056] [LOG] Api/SysUser.postGetByLogin - { name: 'admin',
+  password: 'e10adc3949ba59abbe56e057f20f883e',
+  body: '{"name":"admin","pwd":"123456"}',
+  key: 'ihealth_datams',
+  code: '908bed998128a8ea63bae439781344ca' }
+[2017-10-30 11:34:58.058] [LOG] Api/SysUser.postGetByLogin - --------------------------
+[2017-10-30 11:34:58.059] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:34:58.059] [LOG] Api/SysUser.postGetByLogin - ReferenceError: data1 is not defined
+    at module.exports.postGetByLogin (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/Api/SysUser.js:33:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-10-30 11:34:58.059] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:37:11.969] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:37:11.970] [LOG] Api/SysUser.postGetByLogin - reqUrl:/Api/SysUser/GetByLogin
+[2017-10-30 11:37:11.971] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:37:11.971] [LOG] Api/SysUser.postGetByLogin - reqBody:[object Object]
+[2017-10-30 11:37:11.971] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:37:11.972] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:37:11.972] [LOG] Api/SysUser.postGetByLogin - ReferenceError: data1 is not defined
+    at module.exports.postGetByLogin (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/Api/SysUser.js:33:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-10-30 11:37:11.972] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:38:12.635] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:38:12.636] [LOG] Api/SysUser.postGetByLogin - reqUrl:/Api/SysUser/GetByLogin
+[2017-10-30 11:38:12.636] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:38:12.637] [LOG] Api/SysUser.postGetByLogin - reqBody:
+[2017-10-30 11:38:12.637] [LOG] Api/SysUser.postGetByLogin - { name: 'admin',
+  password: 'e10adc3949ba59abbe56e057f20f883e',
+  body: '{"name":"admin","pwd":"123456"}',
+  key: 'ihealth_datams',
+  code: '908bed998128a8ea63bae439781344ca' }
+[2017-10-30 11:38:12.639] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:38:12.639] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:38:12.639] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:38:44.652] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:38:44.653] [LOG] Api/SysUser.postGetByLogin - reqUrl:/Api/SysUser/GetByLogin
+[2017-10-30 11:38:44.654] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:38:44.654] [LOG] Api/SysUser.postGetByLogin - reqBody:
+[2017-10-30 11:38:44.654] [LOG] Api/SysUser.postGetByLogin - { name: 'admin',
+  password: 'e10adc3949ba59abbe56e057f20f883e',
+  body: '{"name":"admin","pwd":"123456"}',
+  key: 'ihealth_datams',
+  code: '908bed998128a8ea63bae439781344ca' }
+[2017-10-30 11:38:44.656] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:38:44.656] [LOG] Api/SysUser.postGetByLogin - data1 is not defined
+[2017-10-30 11:38:44.657] [LOG] Api/SysUser.postGetByLogin - ReferenceError: data1 is not defined
+    at module.exports.postGetByLogin (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/Api/SysUser.js:33:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-10-30 11:38:44.657] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:43:06.997] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 11:43:06.998] [LOG] Api/SysUser.postGetByLogin - reqUrl:/Api/SysUser/GetByLogin
+[2017-10-30 11:43:06.999] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:43:06.999] [LOG] Api/SysUser.postGetByLogin - reqBody:
+[2017-10-30 11:43:06.999] [LOG] Api/SysUser.postGetByLogin - { name: 'admin',
+  password: 'c4ca4238a0b923820dcc509a6f75849b',
+  body: '{"name":"admin","pwd":"1"}',
+  key: 'ihealth_datams',
+  code: '5efa183d90edb7bebb719424f665ee9c' }
+[2017-10-30 11:43:06.999] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 11:43:06.999] [LOG] Api/SysUser.postGetByLogin - No SysUser was found by matching the given condition.
+[2017-10-30 11:43:07.000] [LOG] Api/SysUser.postGetByLogin - Error: No SysUser was found by matching the given condition.
+    at get.then.data (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/Model.js:361:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-10-30 11:43:07.000] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 16:15:37.226] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 16:15:37.227] [LOG] Api/SysUser.postGetByLogin - reqUrl:/Api/SysUser/GetByLogin
+[2017-10-30 16:15:37.228] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 16:15:37.228] [LOG] Api/SysUser.postGetByLogin - reqBody:
+[2017-10-30 16:15:37.228] [LOG] Api/SysUser.postGetByLogin - { name: '11',
+  password: '6512bd43d9caa6e02c990b0a82652dca',
+  reqBody: '{"name":"11","pwd":"11"}',
+  reqUrl: '/Login/DoLogin',
+  sysUserId: 0,
+  key: 'ihealth_datams',
+  code: '081c60078f1a685a82f393602eef8aad' }
+[2017-10-30 16:15:37.230] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 16:15:37.231] [LOG] Api/SysUser.postGetByLogin - No SysUser was found by matching the given condition.
+[2017-10-30 16:15:37.231] [LOG] Api/SysUser.postGetByLogin - Error: No SysUser was found by matching the given condition.
+    at get.then.data (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/Model.js:361:27)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-10-30 16:15:37.231] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 16:19:46.930] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 16:19:46.931] [LOG] Api/SysUser.postGetByLogin - 日志写入数据库报错
+[2017-10-30 16:19:46.932] [LOG] Api/SysUser.postGetByLogin - reqUrl:/Api/SysUser/GetByLogin
+[2017-10-30 16:19:46.932] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 16:19:46.932] [LOG] Api/SysUser.postGetByLogin - 日志内容:
+[2017-10-30 16:19:46.932] [LOG] Api/SysUser.postGetByLogin - { Type: 0,
+  RequestUrl: '/Login/DoLogin',
+  RequestBody: '{"name":"admin","pwd":"123456"}',
+  ApiUrl: '/Api/SysUser/GetByLogin',
+  Message: '',
+  Detail: '{"success":true,"code":"0101_1","code_sub":"Api_SysUser_GetByLogin_success","message":"获取成功","description":"","timestamp":"1509351555968"}',
+  SysUserId: 1,
+  CreatedDate: '2017-10-30 16:19:46' }
+[2017-10-30 16:19:46.934] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 16:19:46.934] [LOG] Api/SysUser.postGetByLogin - ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE8\x8E\xB7\xE5\x8F\x96...' for column 'Detail' at row 1
+[2017-10-30 16:19:46.934] [LOG] Api/SysUser.postGetByLogin - Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE8\x8E\xB7\xE5\x8F\x96...' for column 'Detail' at row 1
+    at Query.Sequence._packetToError (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Protocol._enqueue (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Connection.query (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/Connection.js:208:25)
+    at Promise (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/drivers/mysql.js:34:40)
+    at Promise (<anonymous>)
+    at Object.query (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/drivers/mysql.js:30:16)
+    at SysLog.query (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/DB.js:330:34)
+    at SysLog.insert (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/Query.js:639:21)
+    at SysLog.insert (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/Model.js:184:22)
+    at module.exports.sysLog (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/BaseController.js:50:40)
+    at module.exports.apiLog (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/BaseController.js:44:8)
+[2017-10-30 16:19:46.934] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 16:21:31.691] [LOG] Api/SysUser.postGetByLogin - *****************************************************
+[2017-10-30 16:21:31.692] [LOG] Api/SysUser.postGetByLogin - 日志写入数据库报错
+[2017-10-30 16:21:31.693] [LOG] Api/SysUser.postGetByLogin - reqUrl:/Api/SysUser/GetByLogin
+[2017-10-30 16:21:31.693] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 16:21:31.693] [LOG] Api/SysUser.postGetByLogin - 日志内容:
+[2017-10-30 16:21:31.693] [LOG] Api/SysUser.postGetByLogin - { Type: 0,
+  RequestUrl: '/Login/DoLogin',
+  RequestBody: '{"name":"admin","pwd":"123456"}',
+  ApiUrl: '/Api/SysUser/GetByLogin',
+  Message: '',
+  Detail: '{"success":true,"code":"0101_1","code_sub":"Api_SysUser_GetByLogin_success","message":"获取成功","description":"","timestamp":"1509351682458"}',
+  SysUserId: 1,
+  CreatedDate: '2017-10-30 16:21:31' }
+[2017-10-30 16:21:31.693] [LOG] Api/SysUser.postGetByLogin - -----------------------------------------------------
+[2017-10-30 16:21:31.693] [LOG] Api/SysUser.postGetByLogin - ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE8\x8E\xB7\xE5\x8F\x96...' for column 'Detail' at row 1
+[2017-10-30 16:21:31.694] [LOG] Api/SysUser.postGetByLogin - Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect string value: '\xE8\x8E\xB7\xE5\x8F\x96...' for column 'Detail' at row 1
+    at Query.Sequence._packetToError (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Protocol._enqueue (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/protocol/Protocol.js:145:48)
+    at Connection.query (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/mysql/lib/Connection.js:208:25)
+    at Promise (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/drivers/mysql.js:34:40)
+    at Promise (<anonymous>)
+    at Object.query (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/drivers/mysql.js:30:16)
+    at SysLog.query (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/DB.js:330:34)
+    at SysLog.insert (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/Query.js:639:21)
+    at SysLog.insert (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/node_modules/modelar/Model.js:184:22)
+    at module.exports.sysLog (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/BaseController.js:51:40)
+    at module.exports.apiLog (/Users/terryzou/company/dms/github/dms/dmsproj_nodejs/dmsapi/App/Controllers/BaseController.js:45:9)
+[2017-10-30 16:21:31.694] [LOG] Api/SysUser.postGetByLogin - *****************************************************

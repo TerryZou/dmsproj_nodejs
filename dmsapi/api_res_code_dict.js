@@ -3,13 +3,13 @@ const apidict = {
 		Name: "SysUser",
 		Description: "系统用户接口",
 		Url: "/Api/SysUser/",
-		Code:"01",
+		Code: "01",
 		Apis: {
 			GetByLogin: {
 				Name: "GetByLogin",
 				Description: "通过登录条件获取用户信息",
 				Method: "GetByLogin",
-				Code:"0101",
+				Code: "0101",
 				result: {
 					data: null,
 					res: {
@@ -21,8 +21,8 @@ const apidict = {
 						timestamp: new Date().getTime().toString()
 					}
 				},
-				codes:{
-					noauthor:{
+				codes: {
+					noauthor: {
 						success: false,
 						code: "0101_0",
 						code_sub: 'Api_SysUser_GetByLogin_no_author',
@@ -30,7 +30,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					success:{
+					success: {
 						success: true,
 						code: "0101_1",
 						code_sub: 'Api_SysUser_GetByLogin_success',
@@ -38,7 +38,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					parameter:{
+					parameter: {
 						success: false,
 						code: "0101_2",
 						code_sub: 'Api_SysUser_GetByLogin_nosuccess_parameter',
@@ -46,7 +46,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					nodata:{
+					nodata: {
 						success: false,
 						code: "0101_3",
 						code_sub: 'Api_SysUser_GetByLogin_nosuccess_nodata',
@@ -54,7 +54,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					syserror:{
+					syserror: {
 						success: false,
 						code: -1,
 						code_sub: 'Api_SysUser_GetByLogin_syserror',
@@ -70,15 +70,15 @@ const apidict = {
 		Name: "SysLog",
 		Description: "系统日志接口",
 		Url: "/Api/SysLog/",
-		Code:"02",
+		Code: "02",
 		Apis: {
 			ReqLog: {
 				Name: "ReqLog",
 				Description: "用户日志",
 				Method: "ReqLog",
-				Code:"0201",
+				Code: "0201",
 				result: {
-					data:null,
+					data: null,
 					res: {
 						success: true,
 						code: 0,
@@ -88,8 +88,8 @@ const apidict = {
 						timestamp: new Date().getTime().toString()
 					}
 				},
-				codes:{
-					noauthor:{
+				codes: {
+					noauthor: {
 						success: false,
 						code: "0201_0",
 						code_sub: 'Api_SysLog_ReqLog_no_author',
@@ -97,7 +97,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					success:{
+					success: {
 						success: true,
 						code: "0201_1",
 						code_sub: 'Api_SysLog_ReqLog_success',
@@ -105,7 +105,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					parameter:{
+					parameter: {
 						success: false,
 						code: "0201_2",
 						code_sub: 'Api_SysLog_ReqLog_nosuccess_parameter',
@@ -113,7 +113,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					syserror:{
+					syserror: {
 						success: false,
 						code: -1,
 						code_sub: 'Api_SysLog_ReqLog_syserror',
@@ -127,9 +127,9 @@ const apidict = {
 				Name: "ErrorLog",
 				Description: "错误日志",
 				Method: "ErrorLog",
-				Code:"0202",
+				Code: "0202",
 				result: {
-					data:null,
+					data: null,
 					res: {
 						success: true,
 						code: 0,
@@ -139,8 +139,8 @@ const apidict = {
 						timestamp: new Date().getTime().toString()
 					}
 				},
-				codes:{
-					noauthor:{
+				codes: {
+					noauthor: {
 						success: false,
 						code: "0202_0",
 						code_sub: 'Api_SysLog_ErrorLog_no_author',
@@ -148,7 +148,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					success:{
+					success: {
 						success: true,
 						code: "0202_1",
 						code_sub: 'Api_SysLog_ErrorLog_success',
@@ -156,7 +156,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					parameter:{
+					parameter: {
 						success: false,
 						code: "0202_2",
 						code_sub: 'Api_SysLog_ErrorLog_nosuccess_parameter',
@@ -164,7 +164,7 @@ const apidict = {
 						description: '',
 						timestamp: new Date().getTime().toString()
 					},
-					syserror:{
+					syserror: {
 						success: false,
 						code: -1,
 						code_sub: 'Api_SysLog_ErrorLog_syserror',
@@ -173,9 +173,61 @@ const apidict = {
 						timestamp: new Date().getTime().toString()
 					}
 				}
+			},
+			GetReqLog: {
+				Name: "GetReqLog",
+				Description: "错误日志",
+				Method: "GetReqLog",
+				Code: "0203",
+				result: {
+					data: null,
+					res: {
+						success: true,
+						code: 0,
+						code_sub: '',
+						message: '',
+						description: '',
+						timestamp: new Date().getTime().toString()
+					}
+				},
+				codes: {
+					noauthor: {
+						success: false,
+						code: "0203_0",
+						code_sub: 'Api_SysLog_GetReqLog_no_author',
+						message: '无接口访问权限',
+						description: '',
+						timestamp: new Date().getTime().toString()
+					},
+					success: {
+						success: true,
+						code: "0203_1",
+						code_sub: 'Api_SysLog_GetReqLog_success',
+						message: '获取成功',
+						description: '',
+						timestamp: new Date().getTime().toString()
+					},
+					parameter: {
+						success: false,
+						code: "0203_2",
+						code_sub: 'Api_SysLog_GetReqLog_nosuccess_parameter',
+						message: '参数有误',
+						description: '',
+						timestamp: new Date().getTime().toString()
+					},
+					syserror: {
+						success: false,
+						code: -1,
+						code_sub: 'Api_SysLog_GetReqLog_syserror',
+						message: '系统异常',
+						description: '',
+						timestamp: new Date().getTime().toString()
+					}
+				}
 			}
+
 		}
 	}
 }
 
-module.exports=apidict;
+module.exports = apidict;

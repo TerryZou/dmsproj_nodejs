@@ -1,3 +1,4 @@
+var crypto = require('crypto');
 exports.getNowDate=()=> {
     var date = new Date();
     var seperator1 = "-";

@@ -10,6 +10,7 @@ module.exports = class SysLog extends Model {
             "RequestUrl",
             "RequestBody",
             "ApiUrl",
+            "Message",
             "Detail",
             "SysUserId",
             "CreatedDate"],

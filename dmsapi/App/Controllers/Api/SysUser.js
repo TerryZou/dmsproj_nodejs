@@ -5,7 +5,6 @@ const toolutil = require("../../../Utility/ToolUtil");
 module.exports = class extends BaseController {
 
 	async postGetByLogin(req, res) {
-		console.log("somebody come here")
 		try {
 			var SysUserApiCode = this.getApiResCode("SysUser");
 
@@ -15,8 +14,6 @@ module.exports = class extends BaseController {
 
 			var name = req.body.name;
 			var password = req.body.password;
-			
-			console.log(req.body.body);
 
 			//验证参数
 
@@ -32,17 +29,21 @@ module.exports = class extends BaseController {
 				result.res = apicodes.noauthor;
 			} else {
 				try {
-					var data = await SysUser.use(req.db).where("Name", "=", name).where("Password", "=", pwd).get();
+					var data = await SysUser.use(req.db).where("Name", "=", name).where("Password", "=", password).get();
 					result.data = data;
 					result.res = apicodes.success;
 				} catch(ex) {
+					this.coolLog(req,ex);
 					result.res = apicodes.syserror;
 				}
 			}
-			res.set("Access-Control-Allow-Origin", "*");
+
 		} catch(ex) {
+			this.coolLog(req,ex);
 			result.res = apicodes.syserror;
 		}
+		res.set("Access-Control-Allow-Origin", "*");
+		this.apiLog(req,result.res);
 		return result;
 	}
 }
