@@ -14,7 +14,10 @@ module.exports = {
 					action: "GetByLogin",
 					params: {
 						name: '',
-						password: ''
+						password: '',
+						reqUrl: '',
+						reqBody: '',
+						sysUserId: ''
 					},
 					result: {
 						data: {
@@ -67,6 +70,37 @@ module.exports = {
 							sysUserId: "" //操作用户id
 						},
 						result: {
+							res: {
+								success: true,
+								code: 0,
+								code_sub: '',
+								message: '',
+								description: '',
+								timestamp: new Date().getTime().toString()
+							}
+						}
+					},
+					{
+						method: "GetReqLog",
+						action: "GetReqLog",
+						params: {
+							type: type,// 0 用户操作  1 系统操作  2 异常
+							beginDate: beginDate,
+							endDate: endDate,
+							page: 1,
+							pageSize: 20, //
+							orderBy: '', // Id,Type,CreatedDate
+							sort: 'asc', //asc   desc
+							reqUrl: "", //用户请求客户端路径
+							reqBody: "", //用户请求的参数
+							sysUserId: "" //操作用户id
+						},
+						result: {
+							data:{
+								data:[],
+								total:100,
+								pagecount:10
+							},
 							res: {
 								success: true,
 								code: 0,
