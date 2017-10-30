@@ -5,6 +5,9 @@ const apisecurity = require("../../Utility/ApiSecurityUtil");
 
 module.exports = class Base extends HttpController {
 
+	
+	
+	
 	//获取api地址
 	getApiUrl(name, method){
 		var api = sys_config.dataapi
@@ -66,5 +69,15 @@ module.exports = class Base extends HttpController {
 		});
 	}
 
-	
+	coolLog(req,ex){
+		this.logger.log("*****************************************************");
+		this.logger.log("reqUrl:"+req.url);
+		this.logger.log("-----------------------------------------------------");
+		this.logger.log("reqBody:");
+		this.logger.log(req.body);
+		this.logger.log("-----------------------------------------------------");
+		this.logger.log(ex.message);
+		this.logger.log(ex.stack);
+		this.logger.log("*****************************************************");
+	}
 }

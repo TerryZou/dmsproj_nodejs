@@ -1,0 +1,76 @@
+[2017-10-30 11:43:46.586] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 11:43:46.587] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 11:43:46.589] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:43:46.589] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 11:43:46.589] [LOG] Login.postDoLogin - { name: 'admin', pwd: '1' }
+[2017-10-30 11:43:46.591] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:43:46.591] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-10-30 11:43:46.591] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:42:17)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 11:43:46.591] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 11:45:28.048] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 11:45:28.049] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 11:45:28.051] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:45:28.051] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 11:45:28.051] [LOG] Login.postDoLogin - { name: 'admin', pwd: '1' }
+[2017-10-30 11:45:28.052] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:45:28.052] [LOG] Login.postDoLogin - Data must be a string or a buffer
+[2017-10-30 11:45:28.053] [LOG] Login.postDoLogin - TypeError: Data must be a string or a buffer
+    at Hash.update (crypto.js:97:16)
+    at Object.exports.md5 (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/Utility/ToolUtil.js:48:12)
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:35:19)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 11:45:28.053] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 11:45:48.967] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 11:45:48.967] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 11:45:48.969] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:45:48.969] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 11:45:48.969] [LOG] Login.postDoLogin - { name: 'admin', pwd: '1' }
+[2017-10-30 11:45:48.970] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:45:48.970] [LOG] Login.postDoLogin - Data must be a string or a buffer
+[2017-10-30 11:45:48.970] [LOG] Login.postDoLogin - TypeError: Data must be a string or a buffer
+    at Hash.update (crypto.js:97:16)
+    at Object.exports.md5 (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/Utility/ToolUtil.js:48:12)
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:35:19)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 11:45:48.970] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 11:46:15.219] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 11:46:15.220] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 11:46:15.221] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:46:15.221] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 11:46:15.222] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 11:46:15.223] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 11:46:15.223] [LOG] Login.postDoLogin - Data must be a string or a buffer
+[2017-10-30 11:46:15.223] [LOG] Login.postDoLogin - TypeError: Data must be a string or a buffer
+    at Hash.update (crypto.js:97:16)
+    at Object.exports.md5 (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/Utility/ToolUtil.js:48:12)
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:35:19)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 11:46:15.223] [LOG] Login.postDoLogin - *****************************************************

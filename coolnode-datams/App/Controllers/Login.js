@@ -39,7 +39,9 @@ module.exports = class Login extends BaseController {
 			result = await this.apiRequest(url,params,req.body);
 			// result.success = true;
 			
-			if(result.success){
+			if(result.res.success){
+				console.log('dddddd');
+				result.success = true;
 				req.session.username = name;
 				
 			}
@@ -47,7 +49,8 @@ module.exports = class Login extends BaseController {
 			console.log("result-----",result);
 			
 		} catch(ex) {
-			console.log(ex.message);
+			await this.coolLog(req,ex);
+			console.log('111',ex.message);
 		}
 
 		return result;
