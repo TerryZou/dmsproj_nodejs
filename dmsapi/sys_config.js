@@ -1,104 +1,84 @@
-
 module.exports = {
-	databases:[{
-		name:"BaseAnalysis",
-		type: "mysql",
-        host: "120.92.117.210",
-        port: 3306,
-        database: "BaseAnalysis",
-        user: "guest",
-        password: "qwer1234"
-	}],
-    dataapi: {
-        url: "http://127.0.0.1", // For splitting subdomains, could be an array.
-        port: 8086,
-        key:'ihealth_datams',
-        apis:[
-        		{
-        			name:"Manager",
-        			url:"/SystemMS/Manager/",
-        			methods:[
-        				{
-        					method:"getlist",
-        					action:"getlist",
-        					params:{
-        						key:'',
-        						ispage:true,
-        						page:1,
-        						row:20
-        					},
-        					result:{
-        						data:[],
-        						count:100,
-        						success:true,
-        						code:0,
-        						code_sub:'manager_getlist_success',
-        						message:'管理员列表获取成功',
-        						description:'管理员列表获取成功',
-        						timestamp: new Date().getTime().toString()
-        					}
-        				},
-        				{
-        					method:"add",
-        					action:"add",
-        					params:{
-        						name:'',
-        						password:''
-        					},
-        					result:{
-        						data:{userid:1},//返回用户id
-        						success:true,
-        						code:0,
-        						code_sub:'manager_add_success',
-        						message:'成功',
-        						description:'成功',
-        						timestamp: new Date().getTime().toString()
-        					}
-        				},
-        				{
-        					method:"update",
-        					action:"update",
-        					params:{
-        						id:'',
-        						name:'',
-        						password:''
-        					}
-        				},
-        				{
-        					method:"delete",
-        					action:"delete",
-        					params:{
-        						id:''
-        					}
-        				}
-        			]
-        		},
-        		{
-        			name:"HttpTest",
-        			url:"/HttpTest/",
-        			methods:[
-        				{
-        					method:"GetUser",
-        					action:"GetUser",
-        					params:{
-        						key:'',
-        						ispage:true,
-        						page:1,
-        						row:20
-        					},
-        					result:{
-        						data:[],
-        						count:100,
-        						success:true,
-        						code:0,
-        						code_sub:'manager_getlist_success',
-        						message:'管理员列表获取成功',
-        						description:'管理员列表获取成功',
-        						timestamp: new Date().getTime().toString()
-        					}
-        				}
-        			]
-        		},
-        ]
-    }
+	dataapi: {
+		// url: "http://127.0.0.1", // For splitting subdomains, could be an array.
+		url: "http://172.29.0.104", // For splitting subdomains, could be an array.
+		port: 8086,
+		key: 'ihealth_datams',
+		apis: [
+			//系统用户接口
+			{
+				name: "SysUser",
+				url: "/Api/SysUser/",
+				methods: [{
+					method: "Login",
+					action: "GetByLogin",
+					params: {
+						name: '',
+						password: ''
+					},
+					result: {
+						data: {
+							//用户信息
+						},
+						res: {
+							success: true,
+							code: 0,
+							code_sub: '',
+							message: '',
+							description: '',
+							timestamp: new Date().getTime().toString()
+						}
+					}
+				}]
+			},
+			//系统日志接口
+			{
+				name: "SysLog",
+				url: "/Api/SysLog/",
+				methods: [{
+						method: "ReqLog",
+						action: "ReqLog",
+						params: {
+							reqUrl: "", //用户请求客户端路径
+							reqBody: "", //用户请求的参数
+							apiUrl: "", //该操作对应的api接口
+							detail: "", //详情
+							sysUserId: "" //操作用户id
+						},
+						result: {
+							res: {
+								success: true,
+								code: 0,
+								code_sub: '',
+								message: '',
+								description: '',
+								timestamp: new Date().getTime().toString()
+							}
+						}
+					},
+					{
+						method: "ErrorLog",
+						action: "ErrorLog",
+						params: {
+							reqUrl: "", //用户请求客户端路径
+							reqBody: "", //用户请求的参数
+							apiUrl: "", //该操作对应的api接口
+							detail: "", //错误信息
+							sysUserId: "" //操作用户id
+						},
+						result: {
+							res: {
+								success: true,
+								code: 0,
+								code_sub: '',
+								message: '',
+								description: '',
+								timestamp: new Date().getTime().toString()
+							}
+						}
+					}
+				]
+			},
+		]
+	}
 };

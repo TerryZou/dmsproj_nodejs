@@ -11,6 +11,8 @@
 	<body>
 		<a href="javascript:void(0)" onclick="adduser();">添加用户</a>
 		<a href="javascript:void(0)" onclick="getuser();">获取用户</a>
+		<br>
+		<a href="javascript:void(0)" onclick="reqlog();">用户日志</a>
 		<script type="text/javascript">
 			function adduser() {
 				$.ajax({
@@ -32,6 +34,20 @@
 				$.ajax({
 					type: "post",
 					url: "http://127.0.0.1:8086/Api/SysUser/GetByLogin",
+					data: {
+						name:"admin1",
+						pwd:"12345678901"
+					},
+					async: true,
+					success: function(data) {
+						console.log(data);
+					}
+				});
+			}
+			function reqlog() {
+				$.ajax({
+					type: "post",
+					url: "http://127.0.0.1:8086/Api/SysLog/ReqLog",
 					data: {
 						name:"admin1",
 						pwd:"12345678901"
