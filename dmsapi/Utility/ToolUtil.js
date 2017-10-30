@@ -39,3 +39,10 @@ Date.prototype.format = function (fmt) {
         if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
     return fmt;
 }
+
+exports.md5=(str)=>{
+	var md5sum = crypto.createHash('md5');
+	md5sum.update(str);
+	str = md5sum.digest('hex');
+	return str;
+};

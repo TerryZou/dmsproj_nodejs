@@ -14,7 +14,7 @@ module.exports = class extends BaseController {
 			var result = SysUserApiCode.GetByLogin.result;
 
 			var name = req.body.name;
-			var pwd = req.body.pwd;
+			var password = req.body.password;
 			
 			console.log(req.body.body);
 
@@ -22,7 +22,7 @@ module.exports = class extends BaseController {
 
 			var requestData = {
 				name: name,
-				pwd: pwd
+				password: password
 			};
 			var key = req.body.key;
 			var code = req.body.code;
@@ -39,8 +39,6 @@ module.exports = class extends BaseController {
 					result.res = apicodes.syserror;
 				}
 			}
-
-			//req.db.close();
 			res.set("Access-Control-Allow-Origin", "*");
 		} catch(ex) {
 			result.res = apicodes.syserror;
