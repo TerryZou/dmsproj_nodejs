@@ -37,14 +37,19 @@ module.exports = class Base extends HttpController {
 				message: "apiname 或者 action 名字不正确，请检查！"
 			};
 		}
-		console.log(apiurl);
 		return apiurl;
 	}
 
 	//请求第三方api方法
-	apiRequest (url, requestData,reqbody) {
+	apiRequest (url, requestData,req) {
 		var code = apisecurity.getApiCode(requestData, sys_config.dataapi.key);
-		requestData.body = JSON.stringify(reqbody);
+		requestData.reqBody = JSON.stringify(req.body);
+		requestData.reqUrl = req.url;
+		if(req.session.sysUserId != null){
+			requestData.sysUserId = req.session.sysUserId;
+		}else{
+			requestData.sysUserId = 0;
+		}
 		requestData.key = sys_config.dataapi.key;
 		requestData.code = code;
 		
@@ -69,15 +74,43 @@ module.exports = class Base extends HttpController {
 		});
 	}
 
-	coolLog(req,ex){
+	async coolLog(req,ex,apiUrl){
+
+		var apiUrl = this.getApiUrl('SysLog','ErrorLog');
+
+		var sysUserId = 0;
+		if(req.session.sysUserId != null){
+			sysUserId = req.session.sysUserId;
+		}
+		
+		var params={
+			reqUrl: req.url, //用户请求客户端路径
+			reqBody: JSON.stringify(req.body), //用户请求的参数
+			apiUrl: apiUrl, //该操作对应的api接口
+			detail: ex.stack, //错误详细信息
+			message: ex.message,//错误信息
+			sysUserId: sysUserId //操作用户id
+		};
+
+		//写入数据库日志
+		var apiResult = await this.apiRequest(apiUrl,params,req);
+		
+		//写入本地日志
 		this.logger.log("*****************************************************");
 		this.logger.log("reqUrl:"+req.url);
 		this.logger.log("-----------------------------------------------------");
 		this.logger.log("reqBody:");
 		this.logger.log(req.body);
 		this.logger.log("-----------------------------------------------------");
+		this.logger.log("ex.message:");
 		this.logger.log(ex.message);
+		this.logger.log("ex.stack:");
 		this.logger.log(ex.stack);
+		this.logger.log("-----------------------------------------------------");
+		this.logger.log("apiResult:");
+		this.logger.log(apiResult);
 		this.logger.log("*****************************************************");
+		
+
 	}
 }

@@ -22,6 +22,7 @@ module.exports = class Login extends BaseController {
     
     async postDoLogin(req) {
 		var result = new Object();
+		var apiUrl = this.getApiUrl('SysUser','Login');
 		try {
 			
 			var name=req.body.name;
@@ -29,28 +30,20 @@ module.exports = class Login extends BaseController {
 			
 			//验证参数是否合法
 			
-			var url = this.getApiUrl('SysUser','Login');
-
-			console.log('pwd---',pwd);
 			pwd = toolUtil.md5(pwd);
-			console.log('pwd----md5',pwd);
 			var params={name:name,password:pwd};
 			
-			result = await this.apiRequest(url,params,req.body);
+			result = await this.apiRequest(apiUrl,params,req);
 			// result.success = true;
-			
+			console.log('result---',result);
 			if(result.res.success){
-				console.log('dddddd');
 				result.success = true;
 				req.session.username = name;
-				
+				req.session.sysUserId = result.data.Id;
 			}
 			
-			console.log("result-----",result);
-			
 		} catch(ex) {
-			await this.coolLog(req,ex);
-			console.log('111',ex.message);
+			await this.coolLog(req,ex,apiUrl);
 		}
 
 		return result;
@@ -60,7 +53,6 @@ module.exports = class Login extends BaseController {
 		try {
 			req.session.username = null;
 			result.success = true;
-			console.log("result-----",result);
 
 		} catch(ex) {
 			console.log(ex.message);

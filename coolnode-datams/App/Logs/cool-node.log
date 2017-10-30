@@ -74,3 +74,545 @@
     at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
     at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
 [2017-10-30 11:46:15.223] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:50:41.241] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:50:41.243] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 13:50:41.243] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:50:41.243] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 13:50:41.243] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 13:50:41.245] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:50:41.245] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 13:50:41.245] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 13:50:41.245] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:53:54.042] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:53:54.043] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 13:53:54.043] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:53:54.043] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 13:53:54.043] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 13:53:54.044] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:53:54.045] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 13:53:54.045] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 13:53:54.045] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:55:36.805] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:55:36.806] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 13:55:36.806] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:55:36.806] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 13:55:36.806] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 13:55:36.808] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:55:36.808] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 13:55:36.808] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 13:55:36.808] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:58:32.849] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 13:58:32.850] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 13:58:32.851] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:58:32.852] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 13:58:32.852] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 13:58:32.852] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 13:58:32.852] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 13:58:32.852] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 13:58:32.852] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:01:07.898] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:01:07.899] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:02:33.117] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:02:33.117] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:02:33.119] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:02:33.119] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:02:33.119] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:02:33.119] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:02:33.119] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:02:33.120] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:02:33.120] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:03:59.358] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:03:59.360] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:06:19.549] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:06:19.549] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:06:19.551] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:06:19.551] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:06:19.551] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:06:19.551] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:06:19.551] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:06:19.552] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:06:19.552] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:09:27.088] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:09:27.089] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:09:27.089] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:09:27.089] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:09:27.089] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:09:27.091] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:09:27.091] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:09:27.091] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:09:27.091] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:15:57.438] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:15:57.439] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:15:57.439] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:15:57.439] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:15:57.439] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:15:57.441] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:15:57.441] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:15:57.441] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:15:57.441] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:17:58.793] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:17:58.794] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:17:58.794] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:17:58.794] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:17:58.794] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:17:58.796] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:17:58.796] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:17:58.796] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:17:58.796] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:21:09.975] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:21:09.976] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:21:09.978] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:21:09.978] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:21:09.978] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:21:09.978] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:21:09.978] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:21:09.979] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:21:09.979] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:21:09.979] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:21:09.979] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: false,
+     code: -1,
+     code_sub: 'Api_SysLog_ErrorLog_syserror',
+     message: '系统异常',
+     description: '',
+     timestamp: '1509344148202' } }
+[2017-10-30 14:21:09.979] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:23:21.442] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:23:21.442] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:23:21.444] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:23:21.444] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:23:21.444] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:23:21.444] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:23:21.444] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:23:21.445] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:23:21.445] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:23:21.445] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:23:21.445] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: false,
+     code: -1,
+     code_sub: 'Api_SysLog_ErrorLog_syserror',
+     message: '系统异常',
+     description: '',
+     timestamp: '1509344597743' } }
+[2017-10-30 14:23:21.445] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:24:13.997] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:24:13.997] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:24:13.997] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:24:13.997] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:24:13.997] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:24:13.998] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:24:13.998] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:24:13.998] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:24:13.998] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:24:13.998] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:24:13.998] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509344597743' } }
+[2017-10-30 14:24:13.998] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:25:51.075] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:25:51.078] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:25:51.078] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:25:51.078] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:25:51.078] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:25:51.079] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:25:51.079] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:25:51.079] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:25:51.079] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:25:51.079] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:25:51.079] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509344597743' } }
+[2017-10-30 14:25:51.079] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:04.709] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:31:04.711] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 14:31:04.712] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:31:04.712] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:04.712] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:31:04.712] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: false,
+     code: '0202_0',
+     code_sub: 'Api_SysLog_ErrorLog_no_author',
+     message: '无接口访问权限',
+     description: '',
+     timestamp: '1509344597743' } }
+[2017-10-30 14:31:04.712] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:11.383] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:11.384] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:31:11.386] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:11.386] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:31:11.386] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:31:11.386] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:11.386] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 14:31:11.386] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:31:11.387] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 14:31:11.387] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:31:11.387] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:11.387] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:31:11.387] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509345068984' } }
+[2017-10-30 14:31:11.387] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:22.959] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:22.959] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:31:22.961] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509345068984' } }
+[2017-10-30 14:31:22.962] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:36.175] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:31:36.175] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:31:36.177] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:36.177] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:31:36.177] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:31:36.177] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:36.177] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 14:31:36.177] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:31:36.178] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 14:31:36.178] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:31:36.178] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:31:36.178] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:31:36.178] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509345068984' } }
+[2017-10-30 14:31:36.178] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:33:05.253] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:33:05.254] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:33:05.256] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:33:05.256] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:33:05.256] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:33:05.256] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:33:05.256] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 14:33:05.256] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:33:05.256] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 14:33:05.257] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:36:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:33:05.257] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:33:05.257] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:33:05.257] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509345180615' } }
+[2017-10-30 14:33:05.257] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:46:23.825] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 14:46:23.829] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 14:46:23.829] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:46:23.829] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 14:46:23.829] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 14:46:23.831] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:46:23.831] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 14:46:23.831] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 14:46:23.831] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 14:46:23.831] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:34:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 14:46:23.831] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 14:46:23.832] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 14:46:23.832] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509345979321' } }
+[2017-10-30 14:46:23.832] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 16:15:18.585] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 16:15:18.588] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 16:15:18.590] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 16:15:18.590] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 16:15:18.590] [LOG] Login.postDoLogin - { name: '11', pwd: '11' }
+[2017-10-30 16:15:18.590] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 16:15:18.590] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 16:15:18.591] [LOG] Login.postDoLogin - pwd1 is not defined
+[2017-10-30 16:15:18.591] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 16:15:18.591] [LOG] Login.postDoLogin - ReferenceError: pwd1 is not defined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:34:35)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 16:15:18.591] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 16:15:18.591] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 16:15:18.591] [LOG] Login.postDoLogin - { data: null,
+  res: 
+   { success: true,
+     code: '0202_1',
+     code_sub: 'Api_SysLog_ErrorLog_success',
+     message: '记录成功',
+     description: '',
+     timestamp: '1509351310186' } }
+[2017-10-30 16:15:18.592] [LOG] Login.postDoLogin - *****************************************************
