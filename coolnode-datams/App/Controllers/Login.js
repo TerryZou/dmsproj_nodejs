@@ -34,7 +34,7 @@ module.exports = class Login extends BaseController {
 			console.log('pwd---',pwd);
 			pwd = toolUtil.md5(pwd);
 			console.log('pwd----md5',pwd);
-			var params={name:name,pwd:pwd};
+			var params={name:name,password:pwd};
 			
 			result = await this.apiRequest(url,params,req.body);
 			// result.success = true;
