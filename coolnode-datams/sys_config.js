@@ -84,9 +84,9 @@ module.exports = {
 						method: "GetReqLog",
 						action: "GetReqLog",
 						params: {
-							type: type,// 0 用户操作  1 系统操作  2 异常
-							beginDate: beginDate,
-							endDate: endDate,
+							type: 0,// 0 用户操作  1 系统操作  2 异常
+							beginDate: '',
+							endDate: '',
 							page: 1,
 							pageSize: 20, //
 							orderBy: '', // Id,Type,CreatedDate
