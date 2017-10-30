@@ -63,33 +63,6 @@ module.exports = {
         					}
         				}
         			]
-        		},
-        		{
-        			name:"HttpTest",
-        			url:"/HttpTest/",
-        			methods:[
-        				{
-        					method:"GetUser",
-        					action:"GetUser",
-        					params:{
-        						key:'',
-        						ispage:true,
-        						page:1,
-        						row:20
-        					},
-        					result:{
-        						data:[],
-        						count:100,
-        						success:true,
-        						code:0,
-        						code_sub:'manager_getlist_success',
-        						message:'管理员列表获取成功',
-        						description:'管理员列表获取成功',
-        						timestamp: new Date().getTime().toString()
-        					}
-        				}
-        			]
-        		},
-        ]
+        		}]
     }
 };

@@ -1,4 +1,6 @@
 var crypto = require('crypto');
+const toolutil=require('./ToolUtil');
+
 exports.getApiCode = (params,key) => {
 	return generateCode(params,key);
 }
@@ -26,7 +28,7 @@ function generateCode(params,key) {
 	}
 
 	console.log(str);
-	str = md5(str);
+	str = toolutil.md5(str);
 	console.log(str);
 	return str;
 }
@@ -38,10 +40,3 @@ function sortByKey(array, key) {
 		return((x < y) ? -1 : ((x > y) ? 1 : 0));
 	});
 }
-
-function md5(str) {
-	var md5sum = crypto.createHash('md5');
-	md5sum.update(str);
-	str = md5sum.digest('hex');
-	return str;
-};
