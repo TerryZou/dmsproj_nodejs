@@ -24,7 +24,7 @@ module.exports = class Login extends BaseController {
 		var result = new Object();
 		var apiUrl = this.getApiUrl('SysUser','Login');
 		try {
-			
+			console.log('apiUrl---',apiUrl);
 			var name=req.body.name;
 			var pwd=req.body.pwd;
 			
@@ -55,7 +55,7 @@ module.exports = class Login extends BaseController {
 			result.success = true;
 
 		} catch(ex) {
-			console.log(ex.message);
+			await this.coolLog(req,ex,'/Login/Logout_User');
 		}
 
 		return result;

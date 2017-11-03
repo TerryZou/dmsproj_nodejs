@@ -10,8 +10,9 @@ module.exports = class Base extends HttpController {
 	
 	//获取api地址
 	getApiUrl(name, method){
-		var api = sys_config.dataapi
-		var apiurl = api.url + ":" + api.port;
+		var ip='http://172.29.0.98';//api.url
+		var api = sys_config.dataapi;
+		var apiurl = ip + ":" + api.port;
 		var apiname = '';
 		var action = '';
 		for(var n in api.apis) {

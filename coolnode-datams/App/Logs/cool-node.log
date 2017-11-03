@@ -616,3 +616,340 @@
      description: '',
      timestamp: '1509351310186' } }
 [2017-10-30 16:15:18.592] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 20:15:55.960] [LOG] Login.postDoLogin - *****************************************************
+[2017-10-30 20:15:55.963] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-10-30 20:15:55.963] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 20:15:55.963] [LOG] Login.postDoLogin - reqBody:
+[2017-10-30 20:15:55.963] [LOG] Login.postDoLogin - { name: '1', pwd: '1' }
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - ex.message:
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - Cannot set property 'success' of undefined
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - ex.stack:
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - TypeError: Cannot set property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:37:23)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:131:45)
+    at Promise (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:138:21)
+    at Promise (<anonymous>)
+    at app.all (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/cool-node/Core/Middleware/AutoRouteHandler.js:100:9)
+    at Layer.handle [as handle_request] (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:137:13)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+    at next (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/node_modules/express/lib/router/route.js:131:14)
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - apiResult:
+[2017-10-30 20:15:55.965] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-10-30 20:15:55.966] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 09:32:01.311] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 09:32:01.315] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 09:32:01.315] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 09:32:01.315] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 09:32:01.315] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 09:32:01.316] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 09:32:01.317] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:05:20.159] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:05:20.162] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:05:20.162] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:05:20.162] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:05:20.163] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:05:20.165] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:05:20.165] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:05:20.165] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 12:05:20.166] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:05:20.166] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:05:20.166] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:05:20.166] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:05:20.166] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:05:20.166] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:08:26.957] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:08:26.961] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:08:26.961] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:08:26.962] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:08:26.962] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:08:26.964] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:08:26.964] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:08:26.964] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 12:08:26.964] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:08:26.964] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:08:26.965] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:08:26.965] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:08:26.965] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:08:26.965] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:08:56.900] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:08:56.900] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:08:56.902] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:08:56.902] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:08:56.902] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:08:56.902] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:08:56.903] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:18:40.545] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:18:40.550] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:18:40.550] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:18:40.550] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:18:40.550] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:18:40.552] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:18:40.552] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:18:40.552] [LOG] Login.postDoLogin - Cannot create property 'error' on string 'requst failed, check api url or check server code'
+[2017-11-01 12:18:40.552] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:18:40.552] [LOG] Login.postDoLogin - TypeError: Cannot create property 'error' on string 'requst failed, check api url or check server code'
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:46:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:18:40.552] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:18:40.553] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:18:40.553] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:18:40.553] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:19:10.521] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:19:10.522] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:19:10.524] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:19:10.524] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:19:10.524] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:19:10.524] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:19:10.524] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:19:10.524] [LOG] Login.postDoLogin - Cannot create property 'error' on string 'requst failed, check api url or check server code'
+[2017-11-01 12:19:10.525] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:19:10.525] [LOG] Login.postDoLogin - TypeError: Cannot create property 'error' on string 'requst failed, check api url or check server code'
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:46:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:19:10.525] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:19:10.525] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:19:10.525] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:19:10.525] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:30:35.224] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:30:35.225] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:30:35.227] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:30:35.227] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:30:35.228] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:30:35.228] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:30:35.228] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:30:35.228] [LOG] Login.postDoLogin - Cannot create property 'success' on string 'requst failed, check api url or check server code'
+[2017-11-01 12:30:35.228] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:30:35.229] [LOG] Login.postDoLogin - TypeError: Cannot create property 'success' on string 'requst failed, check api url or check server code'
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:46:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:30:35.229] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:30:35.229] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:30:35.229] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:30:35.229] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:30:50.424] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:30:50.424] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:30:50.426] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:30:50.426] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:30:50.427] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:30:50.427] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:30:50.427] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:30:50.427] [LOG] Login.postDoLogin - Cannot create property 'success' on string 'requst failed, check api url or check server code'
+[2017-11-01 12:30:50.427] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:30:50.427] [LOG] Login.postDoLogin - TypeError: Cannot create property 'success' on string 'requst failed, check api url or check server code'
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:46:20)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:30:50.428] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:30:50.428] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:30:50.428] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:30:50.428] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:32:46.678] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:32:46.679] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:32:46.680] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:32:46.680] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:32:46.681] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:32:46.682] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:32:46.682] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:32:46.682] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 12:32:46.682] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:32:46.682] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:32:46.682] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:32:46.683] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:32:46.683] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:32:46.683] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:33:20.267] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:33:20.267] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:33:20.269] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:33:20.269] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:33:20.269] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:33:20.270] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:34:52.918] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:34:52.919] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:34:52.921] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:34:52.921] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:34:52.921] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:34:52.921] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:34:52.921] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:34:52.921] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 12:34:52.921] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:34:52.922] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:34:52.922] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:34:52.922] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:34:52.922] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:34:52.922] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:35:22.945] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 12:35:22.947] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 12:35:22.947] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:35:22.948] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 12:35:22.948] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 12:35:22.948] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:35:22.948] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 12:35:22.948] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 12:35:22.948] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 12:35:22.949] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 12:35:22.949] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 12:35:22.949] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 12:35:22.949] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 12:35:22.949] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 13:40:21.382] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 13:40:21.385] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 13:40:21.385] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 13:40:21.385] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 13:40:21.385] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 13:40:21.385] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 13:40:21.385] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 13:40:21.386] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 13:40:21.386] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 13:40:21.386] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 13:40:21.386] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 13:40:21.386] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 13:40:21.386] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 13:40:21.387] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 14:19:08.821] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 14:19:08.824] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 14:19:08.824] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 14:19:08.824] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 14:19:08.824] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 14:19:08.824] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 14:19:08.824] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 14:19:08.825] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 14:19:08.825] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 14:19:08.825] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 14:19:08.825] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 14:19:08.825] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 14:19:08.826] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 14:19:08.826] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 14:19:38.893] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 14:19:38.893] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-01 14:19:38.895] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 14:19:38.895] [LOG] Login.postDoLogin - reqBody:
+[2017-11-01 14:19:38.895] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-01 14:19:38.895] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 14:19:38.896] [LOG] Login.postDoLogin - ex.message:
+[2017-11-01 14:19:38.896] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-01 14:19:38.896] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-01 14:19:38.896] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 14:19:38.896] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-01 14:19:38.896] [LOG] Login.postDoLogin - apiResult:
+[2017-11-01 14:19:38.897] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-01 14:19:38.897] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-01 17:31:52.395] [LOG] SystemMS/SysLog.postGetList - *****************************************************
+[2017-11-01 17:31:52.399] [LOG] SystemMS/SysLog.postGetList - reqUrl:/SystemMS/SysLog/GetList
+[2017-11-01 17:31:52.399] [LOG] SystemMS/SysLog.postGetList - -----------------------------------------------------
+[2017-11-01 17:31:52.399] [LOG] SystemMS/SysLog.postGetList - reqBody:
+[2017-11-01 17:31:52.399] [LOG] SystemMS/SysLog.postGetList - { page: '1', pageSize: '30' }
+[2017-11-01 17:31:52.399] [LOG] SystemMS/SysLog.postGetList - -----------------------------------------------------
+[2017-11-01 17:31:52.400] [LOG] SystemMS/SysLog.postGetList - ex.message:
+[2017-11-01 17:31:52.400] [LOG] SystemMS/SysLog.postGetList - Cannot read property 'data' of undefined
+[2017-11-01 17:31:52.400] [LOG] SystemMS/SysLog.postGetList - ex.stack:
+[2017-11-01 17:31:52.400] [LOG] SystemMS/SysLog.postGetList - TypeError: Cannot read property 'data' of undefined
+    at SysLog.postGetList (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/SystemMS/SysLog.js:54:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-01 17:31:52.400] [LOG] SystemMS/SysLog.postGetList - -----------------------------------------------------
+[2017-11-01 17:31:52.400] [LOG] SystemMS/SysLog.postGetList - apiResult:
+[2017-11-01 17:31:52.400] [LOG] SystemMS/SysLog.postGetList - { data: null,
+  res: 
+   { success: false,
+     code: -1,
+     code_sub: 'Api_SysLog_ErrorLog_syserror',
+     message: '系统异常',
+     description: '',
+     timestamp: '1509517213874' } }
+[2017-11-01 17:31:52.401] [LOG] SystemMS/SysLog.postGetList - *****************************************************
+[2017-11-02 15:55:49.417] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-02 15:55:49.418] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-02 15:55:49.418] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-02 15:55:49.418] [LOG] Login.postDoLogin - reqBody:
+[2017-11-02 15:55:49.418] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-02 15:55:49.420] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-02 15:55:49.420] [LOG] Login.postDoLogin - ex.message:
+[2017-11-02 15:55:49.420] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-02 15:55:49.421] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-02 15:55:49.421] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-02 15:55:49.421] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-02 15:55:49.421] [LOG] Login.postDoLogin - apiResult:
+[2017-11-02 15:55:49.421] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-02 15:55:49.421] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-02 15:55:53.708] [LOG] Login.postDoLogin - *****************************************************
+[2017-11-02 15:55:53.708] [LOG] Login.postDoLogin - reqUrl:/Login/DoLogin
+[2017-11-02 15:55:53.710] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-02 15:55:53.710] [LOG] Login.postDoLogin - reqBody:
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - { name: 'admin', pwd: '123456' }
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - ex.message:
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - Cannot read property 'success' of undefined
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - ex.stack:
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - TypeError: Cannot read property 'success' of undefined
+    at Login.postDoLogin (/Users/wangzhuo/Documents/GitHub/dmsproj_nodejs/coolnode-datams/App/Controllers/Login.js:39:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - -----------------------------------------------------
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - apiResult:
+[2017-11-02 15:55:53.711] [LOG] Login.postDoLogin - requst failed, check api url or check server code
+[2017-11-02 15:55:53.712] [LOG] Login.postDoLogin - *****************************************************
